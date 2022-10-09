@@ -69,3 +69,9 @@
    background-color: var(--color-green);
    color: var(--color-white);
 }
+
+.burger-button-change-localization {
+   position: absolute;
+   right: 15px;
+   top: 15px;
+}
