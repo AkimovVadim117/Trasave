@@ -1,0 +1,13 @@
+@media (max-width: 767px) {
+   .advantages-list {
+      flex-direction: column;
+   }
+
+   .advantage-item {
+      margin: 0 auto;
+   }
+   
+   .advantage-item:not(:last-child) {
+      margin-bottom: 75px;
+   }
+}

@@ -1,0 +1,15 @@
+@font-face {
+   font-family: "Nurito Bold";
+   src: url(../../fonts/Nunito-Bold.ttf);
+}
+
+@font-face {
+   font-family: "Nurito Light";
+   src: url(../../fonts/Nunito-ExtraLight.ttf);
+}
+
+h1 {font-size: 54px}
+h2 {font-size: 48px}
+
+html {font-family: "Nurito Light"}
+h1, h2, h3, h4, h5, h6, ._button {font-family: "Nurito Bold"}

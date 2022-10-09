@@ -1,0 +1,27 @@
+* {padding: 0; margin: 0; border: 0}
+*, *:before, *:after {box-sizing: border-box}
+nav, footer, header, aside {display: block}
+html, body {
+   position: relative;
+   height: 100%;
+   max-width: 1350px;
+   margin: 0 auto;
+
+   font-size: 24px;
+   background-color: var(--color-black);
+   color: var(--color-white);
+
+   text-size-adjust: 100%;
+   -o-text-size-adjust: 100%;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input::-ms-clear {display: none}
+address {text-decoration: none; font-style: normal}
+button::-moz-focus-inner {padding: 0; border: 0}
+a, a:visited, a:hover {text-decoration: none}
+a:not(.burger-page-anchor) {color: var(--color-white)}
+:focus, :active, a:focus, a:active {outline: none}
+ul li {list-style: none}
+img {vertical-align: top}

@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+   .footer {
+      background-image: none;
+   }
+
+   .footer-list-info {
+      flex-direction: column;
+   }
+
+   .footer-list-info .list-item:not(:last-child) {
+      margin-bottom: 50px;
+   }
+}
+
+@media (max-width: 320px) {
+   .footer-list-info .list-item {
+      font-size: var(--font-size-small);
+   }
+
+   .footer-newsletter-input {
+      width: 250px;
+   }
+}

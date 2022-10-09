@@ -1,0 +1,71 @@
+.burger-button-open {
+   display: none;
+
+   -webkit-transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -ms-transform: rotate(90deg);
+   -o-transform: rotate(90deg);
+   transform: rotate(90deg);
+
+   color: var(--color-white);
+}
+
+.burger-button-close {
+   position: absolute;
+   padding: 6px 10px;
+   top: 0;
+   left: -16.5px;
+
+   border-radius: var(--border-radius-circle);
+   background-color: var(--color-green);
+   color: var(--color-white);
+}
+
+.burger-header {
+   display: none;
+   position: absolute;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+
+   background-color: var(--color-translucent);
+
+   z-index: 100;
+}
+
+.burger-menu {
+   position: absolute;
+   width: 50vw;
+   height: 100%;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   padding: 25px;
+
+   background-color: var(--color-white);
+   color: var(--color-black);
+}
+
+.burger-item-page {
+   margin-bottom: 5px;
+   color: black;
+}
+
+.burger-page-anchor {
+   color: black;
+}
+
+.burger-item-button {
+   position: absolute;
+   padding: 9px 25px;
+   right: 25px;
+   bottom: 25px;
+   left: 25px;
+
+   text-align: center;
+   border: var(--border-width-default) solid transparent;
+   border-radius: var(--border-radius-default);
+   background-color: var(--color-green);
+   color: var(--color-white);
+}

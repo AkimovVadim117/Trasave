@@ -1,0 +1,32 @@
+.main-screen {
+   position: relative;
+   padding: 0 25px;
+}
+
+.main-screen-image {
+   width: 750px;
+   right: 0;
+}
+
+.main-screen-title {
+   padding-top: 125px;
+
+   line-height: var(--line-height-increased);
+}
+
+.main-screen-subtitle {
+   line-height: var(--line-height-medium);
+}
+
+.main-screen-button {
+   margin-top: 200px;
+}
+
+.main-screen-button-anchor {
+   padding: 15px 40px;
+   
+   border: var(--border-width-default) solid transparent;
+   border-radius: var(--border-radius-default);
+   background-color: var(--color-green);
+   color: var(--color-white);
+}

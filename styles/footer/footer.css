@@ -1,0 +1,48 @@
+.footer {
+   padding-bottom: 50px;
+
+   background-image: url(../../images/footer/footer.png);
+   background-size: cover;
+}
+
+.footer-list-info {
+   justify-content: space-around;
+}
+
+.footer-list-info .item-contact li {
+   margin-top: 15px;
+}
+
+.social:not(:last-child) {
+   margin-right: 15px;
+}
+
+.footer-text {
+   margin: 20px 0;
+}
+
+.footer-form {
+   position: relative;
+   margin-top: 20px;
+}
+
+.footer-newsletter-input {
+   width: 300px;
+   padding: 12px 15px;
+   position: relative;
+
+   border-radius: var(--border-radius-default);
+}
+
+.form-button {
+   position: absolute;
+   height: 100%;
+   right: 0;
+   padding: 0 15px;
+
+   border-radius: var(--border-radius-small);
+   background-color: var(--color-green);
+   color: var(--color-white);
+
+   z-index: 100;
+}

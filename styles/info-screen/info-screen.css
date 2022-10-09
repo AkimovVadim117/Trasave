@@ -1,0 +1,43 @@
+.info-screen {
+   position: relative;
+   margin-top: 250px;
+}
+
+.card-text-content {
+   max-width: 650px;
+}
+
+.card-item {
+   justify-content: space-between;
+   position: relative;
+   padding: 0 25px;
+   align-items: flex-end;
+   margin-bottom: 200px;
+}
+
+.card-title {
+   margin-bottom: 50px;
+   padding-top: 15px;
+
+   line-height: var(--line-height-medium);
+}
+
+.card-text {
+   line-height: var(--line-height-medium);
+}
+
+.card-line {
+   height: 5px;
+   width: 150px;
+
+   background-color: var(--color-green);
+}
+
+.card-item:nth-child(3) {
+   align-items: flex-end;
+   justify-content: space-between;
+}
+
+.card-item:nth-child(3) .card-main {
+   max-width: 500px;
+}

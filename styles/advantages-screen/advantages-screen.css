@@ -1,0 +1,34 @@
+.advantages-screen {
+   margin-top: 200px;
+}
+
+.advantages-screen-title {
+   margin-bottom: 25px;
+}
+
+.advantages-screen-text {
+   max-width: 1178px;
+   margin: 0 auto;
+   padding: 0 50px;
+
+   line-height: var(--line-height-normal);
+}
+
+.advantages-list {
+   justify-content: space-between;
+   max-width: 1025px;
+   margin: 150px auto 0 auto;
+}
+
+.advantage-item {
+   width: 220px;
+}
+
+.advantage-title {
+   margin: 10px 0 20px 0;
+}
+
+.advantage-text {
+   font-size: var(--font-size-small);
+   line-height: var(--line-height-normal);
+}

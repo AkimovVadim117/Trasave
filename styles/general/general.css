@@ -1,0 +1,40 @@
+._flex {
+   display: flex;
+}
+
+._button:hover {
+   background-color: var(--color-black);
+   border-color: var(--color-green);
+}
+
+._align-center {
+   align-items: center;
+}
+
+._absolute {
+   position: absolute;
+}
+
+._pointer {
+   cursor: pointer;
+}
+
+.highlighting {
+   color: var(--color-green);
+}
+
+._text-uppercase {
+   text-transform: uppercase;
+}
+
+.text-center {
+   text-align: center;
+}
+
+._transition {
+   -webkit-transition: var(--transition-default);
+   -moz-transition: var(--transition-default);
+   -ms-transition: var(--transition-default);
+   -o-transition: var(--transition-default);
+   transition: var(--transition-default);
+}

@@ -1,0 +1,40 @@
+@media (max-width: 360px) {
+   .burger-item-button {
+      padding: 9px 8px;
+   }
+}
+
+@media (max-width: 375px) {
+   .burger-item-button {
+      right: 5px;
+      bottom: 5px;
+      left: 5px;
+   }
+}
+
+@media (max-width: 440px) {
+   .burger-item-button,
+   .burger-item-page {
+      font-size: 15px;
+   }
+}
+
+@media (max-width: 895px) {
+   .header-pages-list {
+      display: none !important;
+   }
+   
+   .burger-button-open {
+      display: block;
+   }
+}
+
+@media (min-width: 861px) {
+   .header-pages-list {
+      display: flex;
+   }
+
+   .burger-header{
+      display: none;
+   }
+}
